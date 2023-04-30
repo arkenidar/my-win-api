@@ -1,0 +1,13 @@
+{
+    "tasks": [
+        {
+            "type": "make",
+            "targetName": "produce_executable",
+            "makeFileRelativePath": "Makefile",
+            "problemMatcher": [],
+            "label": "make: produce_executable",
+            "detail": "./Makefile"
+        }
+    ],
+    "version": "2.0.0"
+}
