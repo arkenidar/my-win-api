@@ -7,8 +7,19 @@ https://zetcode.com/ebooks/windowsapi/
 
 ## marketplace.visualstudio.com
 
-C/C++ per Visual Studio Code: <br>
+C/C++ for Visual Studio Code: <br>
 https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 
 Make support and task provider: Extension to run Makefile tasks from VS Code <br>
 https://marketplace.visualstudio.com/items?itemName=carlos-algms.make-task-provider
+
+## MSYS with MinGW (Windows)
+
+- install MSYS to `C:\msys64` https://www.msys2.org/#installation
+- update pacman package manager `pacman -Syu`
+- install package gcc compiler: `pacman -S mingw-w64-x86_64-toolchain`
+- install package gdb debugger: `pacman -S mingw-w64-x86_64-gdb`
+- install package make build: `pacman -S mingw-w64-x86_64-make`
+- add to System \ Advanced settings \ Environment Variables \ PATH
+    * `C:\msys64\mingw64\bin`
+    * `C:\msys64\usr\bin`
